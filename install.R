@@ -3,7 +3,9 @@
     install.packages("Seurat")
     install.packages("hdf5r")
     BiocManager::install('Biostrings')
+    BiocManager::install('ComplexHeatmap')
     devtools::install_github("Japrin/STARTRAC")
     BiocManager::install('gsl')
     BiocManager::install('powerTCR')
+    devtools::install_github("ncborcherding/scRepertoire")
     
